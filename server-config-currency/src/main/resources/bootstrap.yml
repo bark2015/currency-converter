@@ -1,0 +1,13 @@
+server:
+  port: 8088
+
+spring:
+   cloud:
+      config:
+         server:
+            git:
+               uri: C:/Users/cesargutierrez/Documents/Ambiente/repo-server           
+   application:
+      name: config-server-converter
+   profiles:
+      active: dev

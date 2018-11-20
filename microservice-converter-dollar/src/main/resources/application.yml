@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: converter-dollar
+
+server:
+  port: ${PORT:8910}
+  servlet:
+        context-path: /springbootapp
